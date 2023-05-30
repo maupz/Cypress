@@ -1,0 +1,24 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "CypressAutomation",
+  "main": "index.js",
+  "scripts": {
+    "cy:run": "cypress run",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Cypress"
+  },
+  "keywords": [
+    "Cypress",
+    "QA",
+    "Automation"
+  ],
+  "author": "MJ",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.12.0"
+  }
+}

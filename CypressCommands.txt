@@ -1,0 +1,18 @@
+####CYPRESS INSTALL
+
+Use brew to install:
+Node.js
+Npm
+Zsh
+Add to .bashprofile or .zshrc $PATH	/usr/local/bin
+
+#Create project folder Cypress
+npm install cypress --save-dev
+
+# Open cypress
+cd Cypress
+node_modules/.bin/cypress open
+
+./node_modules/.bin/cypress run
+./node_modules/.bin/cypress run --browser chrome
+./node_modules/.bin/cypress run --browser firefox

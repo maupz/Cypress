@@ -1,0 +1,3 @@
+# Ignore dependencies managed by package managers
+/node_modules
+/cypress/videos
