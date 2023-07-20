@@ -13,7 +13,14 @@ describe('Test Assertions', function() {
         if(textVeg.includes('Cashews')){
           cy.wrap($el).find('button').click()
         }
-        // Deprecated clich whe$el.find('button').click()
     })
-    
-})})
+    // Click on 'Cart' button
+    cy.get('.cart-icon > img').click()
+    // Click on 'Checkout' button
+    cy.contains('PROCEED TO CHECKOUT').click()
+    // Click on 'Place Order' button
+    cy.get('button').contains('Place Order').click()
+    //cy.contains('Place Order').click()
+    // Verify the text 'Thank you for your order'
+     
+})}) 
